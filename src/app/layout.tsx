@@ -8,7 +8,6 @@ const SNPro = localfont({
   variable: "--font-sn-pro",
   weight: "100 900",
 });
-
 export const metadata: Metadata = {
   description: "sdhhf 😋 | i've been studying computer science for about 6 years, primarily software, roblox projects (and a lil bit of game hacking).",
   metadataBase: new URL('https://sdhhf1245.github.io'),
@@ -17,6 +16,8 @@ export const metadata: Metadata = {
   themeColor: "#2c2d30",
   applicationName: 'sdhhfWeb',
   openGraph: {
+    title: 'sdhhf',
+    description: "sdhhf 😋 | i've been studying computer science for about 6 years, primarily software, roblox projects (and a lil bit of game hacking).", // Add description for Open Graph
     images: [
       {
         url: "https://dcdn.dstn.to/avatars/1059614915456938084?size=1024",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   },
   keywords: ['Next.js', 'React', 'JavaScript', 'GameHacking', 'sdhhf', 'Roblox', 'Typeracer', 'Monkeytype'],
 };
-// <meta name="theme-color" content="#7289DA">
+
 export default function RootLayout({
   children,
 }: Readonly<{
