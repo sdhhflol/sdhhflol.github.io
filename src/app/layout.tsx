@@ -14,10 +14,18 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://sdhhf1245.github.io'),
   creator: 'sdhhf',
   authors: [{ name: 'sdhhf' }],
+  themeColor: "#2c2d30",
   applicationName: 'sdhhfWeb',
+  openGraph: {
+    images: [
+      {
+        url: "https://dcdn.dstn.to/avatars/1059614915456938084?size=1024",
+      },
+    ],
+  },
   keywords: ['Next.js', 'React', 'JavaScript', 'GameHacking', 'sdhhf', 'Roblox', 'Typeracer', 'Monkeytype'],
 };
-
+// <meta name="theme-color" content="#7289DA">
 export default function RootLayout({
   children,
 }: Readonly<{
