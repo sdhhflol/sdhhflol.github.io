@@ -13,18 +13,12 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://sdhhf1245.github.io'),
   creator: 'sdhhf',
   authors: [{ name: 'sdhhf' }],
-  themeColor: "#2c2d30",
   applicationName: 'sdhhfWeb',
-  openGraph: {
-    title: 'sdhhf',
-    description: "sdhhf 😋 | i've been studying computer science for about 6 years, primarily software, roblox projects (and a lil bit of game hacking).", // Add description for Open Graph
-    images: [
-      {
-        url: "https://dcdn.dstn.to/avatars/1059614915456938084?size=1024",
-      },
-    ],
-  },
   keywords: ['Next.js', 'React', 'JavaScript', 'GameHacking', 'sdhhf', 'Roblox', 'Typeracer', 'Monkeytype'],
+  themeColor: '#2c2d30',
+  openGraph: {
+    images: ['https://dcdn.dstn.to/avatars/1059614915456938084.png?size=1024'],
+  },
 };
 
 export default function RootLayout({
