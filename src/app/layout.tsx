@@ -30,6 +30,7 @@ export default function RootLayout({
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />
+        <meta name="theme-color" content="#2c2d30"/>
       </head>
       <body
         className={`${SNPro.variable} antialiased`}
