@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #14151a;
+  --foreground: #e2e2e2;
+}
+
+@font-face {
+  font-family: 'SNPro';
+  src: url('./fonts/SNPro-Variable.woff') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'SNPro', sans-serif;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../public/assets/bg.png");
+  z-index: -1;
+  mask-image: linear-gradient(to top, transparent 10%, black 100%);
+  -webkit-mask-image: linear-gradient(to top, transparent 10%, black 100%);
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
