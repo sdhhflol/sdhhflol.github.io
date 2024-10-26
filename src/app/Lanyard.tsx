@@ -62,8 +62,8 @@ class Lanyard extends React.Component<{}, LanyardState> {
     }
 
     componentWillUnmount() {
-        if (this.timeinterval) clearInterval(this.timeinterval);
-        if (this.fetching) clearInterval(this.fetching);
+        // if (this.timeinterval) clearInterval(this.timeinterval);
+        // if (this.fetching) clearInterval(this.fetching);
     }
 
     async fetch() {
