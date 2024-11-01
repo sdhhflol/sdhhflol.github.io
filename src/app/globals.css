@@ -4,6 +4,17 @@
 
 :root {
   --background: #14151a;
+  --background-50: #f1f1f4;
+  --background-100: #e3e3e8;
+  --background-200: #c6c6d2;
+  --background-300: #aaaabb;
+  --background-400: #8e8ea4;
+  --background-500: #71718e;
+  --background-600: #5b5b71;
+  --background-700: #444455;
+  --background-800: #2d2d39;
+  --background-900: #17171c;
+  --background-950: #0b0b0e;
   --foreground: #e2e2e2;
 }
 

@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import localfont from "next/font/local";
 
 import "./globals.css";
@@ -15,9 +15,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'sdhhf' }],
   applicationName: 'sdhhfWeb',
   keywords: ['Next.js', 'React', 'JavaScript', 'GameHacking', 'sdhhf', 'Roblox', 'Typeracer', 'Monkeytype'],
-  themeColor: '#2c2d30',
 };
 
+export const viewport: Viewport = {
+  themeColor: '#2c2d30',
+}
 export default function RootLayout({
   children,
 }: Readonly<{
