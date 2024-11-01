@@ -3,7 +3,7 @@
 export default function Page() {
     let b = false;
 
-    const c = (e) => {
+    const c = (e: { currentTarget: { style: { opacity: string; }; }; }) => {
         if (b) return;
 
         e.currentTarget.style.opacity = '0';
