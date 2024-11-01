@@ -3,7 +3,7 @@
 export default function Page() {
     let b = false;
 
-    const c = (e: any) => {
+    const c = (e) => {
         if (b) return;
 
         e.currentTarget.style.opacity = '0';
