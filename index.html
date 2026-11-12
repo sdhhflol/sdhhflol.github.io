@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="warning box center">
+        <span style="font-size: 40px">sdhhf &middot; <strong>epilepsy warning</strong></span>
+        <span style="font-size: 20px">this site contains many bright flashing patterns and may cause epileptic seizures in some</span>
+        <br>
+        <span class="lift" style="font-style: italic;" id="warning"> are you sure you want to continue?</span>
+        <span class="lift dim" style="font-style: italic;" id="skip">skip intro</span>
+    </div>
+
+    <div class="box center" id="reload" style="background: #ffffff !important;" hidden>
+        <div class="reload-text">sdhhf</div>
+    </div>
+
+    <div class="spinner" id="spinner" hidden>
+        <img src="assets/bbs/spinner.png" alt="">
+    </div>
+
+    <div class="wall" id="wall" hidden></div>
+
+    <div class="box center" id="intro" hidden>
+        <video id="video" src="assets/menu.mp4" muted loop playsinline></video>
+        <div id="title" style="text-align: left;">
+            <span id="bbs" style="font-size: 4rem;"></span>
+            <div id="desc" hidden>
+                <span style="font-size: 1rem; max-width: min(40rem, 85vw);">developer</span>
+            </div>
+        </div>
+        <div id="footer" hidden>
+            <span id="footer-text">リリイ&middot;シュシュ</span>
+            <span style="float: left; margin-left: 2rem;">sdhhf all rights reserved</span>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
